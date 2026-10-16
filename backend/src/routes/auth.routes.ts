@@ -13,3 +13,4 @@ router.post('/logout', authController.logout);
 router.post('/mock-login', validateBody(mockLoginSchema), authController.mockLogin);
 
 export const authRoutes = router;
+

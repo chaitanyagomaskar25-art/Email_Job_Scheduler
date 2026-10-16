@@ -205,3 +205,4 @@ export const SentEmailsPage: React.FC = () => {
     </div>
   );
 };
+

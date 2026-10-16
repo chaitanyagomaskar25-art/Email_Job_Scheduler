@@ -29,3 +29,4 @@ if (process.env.NODE_ENV !== 'production') {
 prisma.$on('error', (e: { message: string; target: string }) => {
   logger.error({ err: e }, 'Prisma Database Error');
 });
+

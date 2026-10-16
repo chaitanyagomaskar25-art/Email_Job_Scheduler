@@ -16,3 +16,4 @@ router.post('/slack/disconnect', requireAuth, integrationController.disconnectSl
 router.post('/slack/test', requireAuth, integrationController.testSlackAlert);
 
 export const integrationRoutes = router;
+

@@ -8,3 +8,4 @@ router.use(requireAuth);
 router.get('/stats', dashboardController.getStats);
 
 export const dashboardRoutes = router;
+

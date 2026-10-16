@@ -40,3 +40,4 @@ export const validateQuery =
       next(error);
     }
   };
+

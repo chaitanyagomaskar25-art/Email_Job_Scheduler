@@ -39,3 +39,4 @@ bootstrapWorker().catch((err) => {
   logger.error({ err }, 'Fatal error during worker process startup');
   process.exit(1);
 });
+

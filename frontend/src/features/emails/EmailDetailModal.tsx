@@ -112,3 +112,4 @@ export const EmailDetailModal: React.FC<EmailDetailModalProps> = ({
     </Modal>
   );
 };
+

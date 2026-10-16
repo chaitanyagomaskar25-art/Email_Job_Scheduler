@@ -35,3 +35,4 @@ export const getRedisClient = (): Redis => {
 export const createRedisConnection = (): Redis => {
   return new Redis(redisConfig);
 };
+

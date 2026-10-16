@@ -40,3 +40,4 @@ router.post('/:id/cancel', emailController.cancelEmail);
 router.post('/:id/retry', emailController.retryEmail);
 
 export const emailRoutes = router;
+

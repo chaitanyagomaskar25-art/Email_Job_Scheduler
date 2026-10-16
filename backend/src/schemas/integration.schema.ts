@@ -8,3 +8,4 @@ export const slackCallbackQuerySchema = z.object({
 export const testSlackNotificationSchema = z.object({
   message: z.string().min(1).default('ReachInbox Test Alert: Slack notification pipeline verified.'),
 });
+

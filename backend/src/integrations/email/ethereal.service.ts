@@ -124,3 +124,4 @@ class EmailDeliveryService {
 }
 
 export const emailDeliveryService = EmailDeliveryService.getInstance();
+

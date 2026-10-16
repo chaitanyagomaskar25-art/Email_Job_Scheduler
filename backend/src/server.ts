@@ -49,3 +49,4 @@ bootstrap().catch((err) => {
   logger.error({ err }, 'Fatal error during server startup');
   process.exit(1);
 });
+

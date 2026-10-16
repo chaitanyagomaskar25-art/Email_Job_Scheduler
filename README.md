@@ -366,3 +366,4 @@ npm run build
 | 18| Automated Backend Tests | ✅ Complete (18 tests) | `backend/tests/` |
 | 19| Automated Frontend Tests | ✅ Complete (9 tests) | `frontend/src/tests/` |
 | 20| Docker Compose Infrastructure | ✅ Complete | `infra/docker-compose.yml` |
+

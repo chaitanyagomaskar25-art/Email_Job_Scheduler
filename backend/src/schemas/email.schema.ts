@@ -53,3 +53,4 @@ export type ScheduleBatchEmailInput = z.infer<typeof scheduleBatchEmailSchema>;
 export type EmailQueryParams = z.infer<typeof emailQuerySchema>;
 export type SearchEmailQueryParams = z.infer<typeof searchEmailQuerySchema>;
 export type CreateSenderInput = z.infer<typeof createSenderSchema>;
+

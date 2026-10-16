@@ -93,3 +93,4 @@ export interface SlackStatusResponse {
   isConnected: boolean;
   integration: SlackIntegrationData | null;
 }
+
