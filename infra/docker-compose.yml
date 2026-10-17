@@ -10,9 +10,9 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
       POSTGRES_DB: ${POSTGRES_DB:-reachinbox}
     ports:
-      - "${POSTGRES_PORT:-5432}:5432"
+      - "${POSTGRES_PORT:-5433}:5432"
     volumes:
-      - postgres_data:/var/lib/postgresql/data
+      - reachinbox_postgres_data:/var/lib/postgresql/data
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres} -d ${POSTGRES_DB:-reachinbox}"]
       interval: 5s
@@ -53,7 +53,7 @@ services:
       retries: 10
 
 volumes:
-  postgres_data:
+  reachinbox_postgres_data:
     driver: local
   redis_data:
     driver: local

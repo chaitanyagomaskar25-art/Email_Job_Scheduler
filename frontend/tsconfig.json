@@ -15,13 +15,11 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["./src/*"]
     }
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist", "src/tests/**/*"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
-
